@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: azure;
+    max-width: 100%;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(234, 238, 21);
+    box-shadow: inset;
+}
+#logo{
+    height: 70px;
+    border-radius: 70%;
+    border: 3px solid rgb(247, 247, 121);
+    box-shadow: -0px 0px 25px rgb(234, 238, 21);
+    margin-left: 10px;
+}
+
+#header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: yellow;
+    text-align: left;
+    font-style: italic;
+    padding: 2px 15px;
+    text-shadow: 5px 2px 5px blue;
+    
+}
+#sign{
+    display: flex;
+}
+.fn{
+    max-width: fit-content;
+    padding: 15px 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.fn #man{
+    display: flex;
+    list-style: none; 
+    justify-content: center;
+    
+}
+
+#man li{
+    padding: 15px;    
+       
+}
+
+#man a{
+    text-decoration: none;
+    
+}
+
+#ab,#ab1, #ab2, #ab3{
+    list-style: none;
+    margin-left: -20px;
+    padding: px;
+    width: max-content;
+    display: none;
+    background-color: lightblue;
+    position: absolute;
+}
+
+#ab li, #ab1 li, #ab2 li, #ab3 li{
+    padding: 0px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+
+#ab a, #ab1 a, #ab2 a, #ab3 a{
+    margin-left: 0px;
+    text-align: center;
+}
+#man li :hover{
+    color: rgb(234, 238, 21);
+    display: block;
+}
+
+#man li:hover #ab{
+    display: block;
+}
+#man li:hover #ab1{
+    display: block;
+}
+#man li:hover #ab2{
+    display: block;
+}
+#man li:hover #ab3{
+    display: block;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+
+
+#bar{
+    width: 150px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    background-color: rgb(247, 247, 121);
+    
+}
+
+#search{
+    padding: 10px;
+}
+
+#search_icon{
+    border-radius: 50%;
+    border: none;    
+}

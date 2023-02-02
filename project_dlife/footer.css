@@ -1,0 +1,23 @@
+.footer{
+    height: 150px;
+    background-color: lightblue;
+    border-top: 2px solid darkblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: darkblue;
+}
+#sm{
+    padding-top: 10px;
+    height: 35px;
+    margin: 5px;
+    
+}

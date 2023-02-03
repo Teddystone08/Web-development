@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    align-content: center;
+    width: 100%;
+}
+
+.welcome{
+    text-align: center;
+    margin: 70px;
+    padding: 40px;
+    color: rgb(2, 53, 2);
+}

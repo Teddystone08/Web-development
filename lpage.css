@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: lightyellow;
+}
+
+.log{
+    height: 10cm;
+    width: 10cm;
+    margin-left: 500px;
+    margin-top: 150px;
+    box-shadow: 0px 0px 30px gray;
+}
+
+#theme{
+    background-color: darkgreen;
+    width: 10cm;
+    height: 1.5cm;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header{
+    font-weight: bolder;
+    font-size: 25px;
+    color: darkgoldenrod;
+}
+
+.inputs{
+    width: 10cm;
+    height: fit-content;
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 20px;
+}
+#user_n, #pwd{
+    width: 7cm;
+    height: 1cm;
+    border-radius: 20px;
+}
+
+#usr, #ps{
+    padding: 5px;
+}
+::placeholder{
+    text-align: center;
+}
+
+#btn{
+    padding: 20px;
+
+}
+#log, #can{
+    width: 2cm;
+    height: 0.8cm;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+
+

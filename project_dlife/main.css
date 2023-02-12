@@ -65,16 +65,17 @@
     width: 100%
 }
 .contact{
-    margin: 55px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .contact img{
     height: 250px;
-    width: 250px;
-    display: inline;
-    padding: 20px;
-    
+    width: 250px; 
+    padding: 40px;
     
 }
+
 .event{
     height: 200px;
     border: 5px;
@@ -89,4 +90,10 @@
     background-color: rgb(185, 185, 53);
     height: 25px;
 
+}
+
+#head{
+    font-size: 20px;
+    margin: -20px;
+    width: 40px;
 }

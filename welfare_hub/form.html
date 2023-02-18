@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <!--this section is to pick applicant details-->
+            <legend>Personal details </legend>
+            <p>
+            <label>First name:</label>
+            <input type="text" placeholder="Christian, Englist or traditional name" name="firtname">
+            </p>
+            <p>
+            <label>Last name:</label>
+            <input type="text" placeholder="surname" name="surname">
+            </p>
+            <p>
+                <label>Date of Birth:</label>
+                <input type="date" name="DOB">
+            </p>
+            <p>
+                <label>Residencial Address: </label>
+                <input type="text" name="ra" placeholder="address to residence location or digital address " multiple="3">
+                
+            </p>
+            <p>
+                <label>Postal address: </label>
+                <input type="text" name="post">
+            </p>
+            <p>
+                <label>Gender:</label>
+                <input type="radio" name="Male">Male <input type="radio" name="Female">Female
+            </p>
+            <p>
+                <label>Marital Statues:</label>
+                <input type="radio" name="sg">Single <input type="radio" name="md">Married <input type="radio" name="dv">Devoced
+            </p>
+            <div>
+                <p>
+                    Types of marrige:<input type="radio">Blessing <input type="radio"> ordance <input type="radio">customary
+                </p>
+            </div>
+            <p>
+                <label>Employment Status:</label>
+                <input type="radio" name="em">Employed <input type="radio" name="unem">Unemployed <input type="radio" name="pen">Retired
+            </p>
+        
+            <p>
+                <label>Vocation:</label>
+                <input type="text" name="Occupation" placeholder="What work you are currently doing">
+            </p>
+                   
+        </fieldset>
+        <!--This section is to pick parent details of applicant-->
+            <div class="q">
+
+            <p>Are Parents alive? <input type="radio">Both are alive <input type="radio">Both deceased 
+                <input type="radio">One alive 
+            </p> 
+            </div>
+
+        <div>
+            <fieldset>
+                <legend>Parent detail</legend>
+                <p>
+                <label>full name of parent 1:</label>
+                <input type="text" required>
+                
+                </p>
+                <p>
+                <label>Date of birth </label>
+                <input type="Date">
+                </p>
+                <p>
+                    Relationship? <input type="radio"> Father <input type="radio">Mother
+                </p>
+                <p>                
+                    <label>full name of parent 2:</label>
+                    <input type="text" required>
+                
+                </p>
+                <p>
+                    <label>Date of birth </label>
+                    <input type="Date">
+                </p>
+                <p>
+                    Relationship? <input type="radio"> Father <input type="radio">Mother
+                </p>                
+
+            </fieldset>
+            <!--this section is to take the applicant family status-->
+
+        </div>
+
+        <div class="family">
+            <fieldset>
+                <legend>Family details</legend>
+                <p>
+                    <label for="spours">Spours Full name:</label>
+                    <input type="text" name="spours" placeholder="Name of your husband or wife">
+                </p>
+                <p>
+                    <label>Date of Birth of spours</label>
+                    <input type="date">
+                </p>
+                <p>
+                    Any Children? <input type="radio">Yes <input type="radio">No
+                </p>
+                <div class="child">
+                    <p>
+                        <label>Name(s) of Child(ren)</label>
+
+                    </p>
+                    <p>
+                        <label>Name of child 1:</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Name of Child 2</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Name of Child 3</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Name of Child 4</label>
+                        <input type="text">
+                    </p>
+                    
+                    
+                </div> 
+                
+                <!--Next of king to the applicant-->
+
+            </fieldset>
+            
+            <div>
+                <fieldset>
+                    <legend>Next of King</legend>
+                    <p>
+                        <label>Full name:</label>
+                        <input type="text">
+                        
+                    </p>
+                    <p>
+                        <label>Residencial address</label>
+                        <input type="text" multiple required>
+
+                    </p>
+                    <p>
+                        
+                    </p>
+                    <p>
+                        <label>Relationship?</label>
+                        <input type="radio"> Son <input type="radio">Daughter 
+                        <input type="radio"> wife
+                     </p>
+                     <p>
+                        <input type="radio">Father <input type="radio">Mother 
+                        <input type="radio">Brother <input type="radio">Sister
+                        <input type="radio">Others
+                    </p>
+                    <p>
+                        <label>Mobile Contact</label>
+                        <input type="number">
+                    </p>
+                    <p>
+                        <label>Email address</label>
+                        <input type="email">
+                    </p>
+                    
+                </fieldset>
+            </div>
+        </div>
+        
+    </form>
+    
+</body>
+</html>

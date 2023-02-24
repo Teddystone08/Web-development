@@ -11,72 +11,33 @@ body{
     height: 40%;
 }
 
-h3{
-    font-size: 30px;
-    font-weight: bold;
-}
-    
-#center{
-    border: 5px solid darkgreen;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    background-color: darkgreen;
-    box-shadow: 0px 0px 10px 10px;
-    position: relative;
-    left: 40%;
-}
-
-#center h3{
-    color: goldenrod;
-    text-align: center;
-    padding-top: 120px;
+.control{
+    position: absolute;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 50%;
 }
 
 #btn1{
-    height: 100px;
-    width: 100px;
+    border: 3px solid darkgoldenrod;
     border-radius: 50%;
-    border: 5px solid darkgreen;
-    color: goldenrod;
-    background-color: darkgreen;
-    box-shadow: 0px 0px 10px 10px;
-    position: relative;
-    top: 40px;
-    left: 45%;
+    height: 120px;
+    width: 120px;
 }
 
-#btn2{
-     height: 100px;
-     width: 100px;
-     border-radius: 50%;
-     border: 5px solid darkgreen;
-     color: goldenrod;
-     background-color: darkgreen;
-     box-shadow: 0px 0px 10px 10px;
-    position: relative;
-    left: 50%;
-    
-    
-}
-
-#btn3{
-    height: 100px;
-    width: 100px;
+#center{
+    border: 3px solid darkgoldenrod;
     border-radius: 50%;
-    border: 5px solid darkgreen;
-    color: goldenrod;
-    background-color: darkgreen;
-    box-shadow: 0px 0px 10px 10px;
-
+    height: 90px;
+    width: 90px;
 }
 
 #btn4{
-    height: 100px;
-    width: 100px;
+    border: 3px solid darkgoldenrod;
     border-radius: 50%;
-    border: 5px solid darkgreen;
-    color: goldenrod;
-    background-color: darkgreen;
-    box-shadow: 0px 0px 10px 10px;
+    height: 120px;
+    width: 120px;
 }
+

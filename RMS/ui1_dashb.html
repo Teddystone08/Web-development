@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/Grule.css">
+    <link rel="stylesheet" href="./styles/ui_1/dash_info.css">
+    <link rel="stylesheet" href="./styles/ui_1/dash_top.css"> 
+    <link rel="stylesheet" href="./styles/ui_1/ui1_dash_side.css"> 
+    <link rel="stylesheet" href="./styles/ui_1/dash_table.css">
+    <link rel="stylesheet" href="./styles/ui_1/dash_req_form.css">
+    <title>DashBoard</title>
+</head>
+
+<body class="web_ui_one">
+    <header>
+        REQUEST AND MANAGEMENT SYSTEM
+    </header>
+    
+    <div class="container">
+         <section class="dash_notice">        
+                <button id="rboard">R-Board</button>            
+                <button id="pboard">P-Board</button>             
+                <button id="cboard">C-Board</button>
+        
+                <div class="note">
+                    <button id="note1"></button>
+                    <button id="note2"></button>
+                    <button id="note3"></button>
+                </div>
+                      
+        </section>
+            <section class="req_info">
+                <button id="btn_info">
+                    <table id="info_tb">
+                        <tr>
+                        <th>Order Num.</th>
+                        <th>Request Num</th>
+                        <th>Location</th>
+                        <th>Rq.Time</th>
+                        </tr>
+                        <tr id="score">
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                    </table>
+                </button>
+                <div class="table_info">
+                    <table id = "tb_details">
+                        <tr>
+                            <th>ORDER NUM.</th>
+                            <th>DATE</th>
+                            <th>REQ.NUM</th>
+                            <th>ITEM NUM</th>
+                            <th>ITEMS</th>
+                            <th>TIME</th>
+                            <th>LOCATION</th>
+                            <th>WHO</th>
+                            <th>RESPONSES</th>
+                            <th>STATUS</th>
+                        </tr>
+                        <tr>
+                            <td type="Number"></td>
+                            <td type="date"></td>
+                            <td type="Number"></td>
+                            <td type="Number"></td>
+                            <td type="Number"></td>
+                            <td type="Time"></td>
+                            <td type="text"></td>
+                            <td type="text"></td>
+                            <td type="check"></td>
+                            <td type="check"></td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </section>
+           
+        <section class="form_req">
+            <form>
+                <fieldset class="item_req">
+                    <legend>Requisition</legend>
+                    <p>
+                        <label>Date:</label>
+                        <input type="date" name="date" id="date">
+                    </p>
+                    <p>
+                        <label>Department:</label>
+                        <select>
+                            <option>dep 1</option>
+                            <option>dep 2</option>
+                            <option>dep 3</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Item code:</label>
+                        <input type="text" name="code" id="item_code">
+                    </p>
+                    <p>
+                        <label>Quantity:</label>
+                        <input type="number" name="qty" id="qty">
+                    </p>
+                    <p>
+                        <label>Unity:</label>
+                        <input type="number" name="unit" id="Unity">
+                    </p>
+                    <p>
+                        <label>Request by:</label>
+                        <input type="text" name="req_name" id="req_name">
+                    </p>
+                    <p>
+                        <input type="button" name="sunmit" value="Submit">
+                        <input type="button" name="Cancel" value="Cancel">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+            
+    </div>
+    
+
+            <aside>
+                <div class="slide">
+                    <div class="theme">
+                        <th>Request dashboard</th>
+                    </div>
+                    <div id="buttons">
+                        <button id="req">Request</button>
+                        <button id="stk">Stock</button>
+                        <button id="tnd">Trend</button>
+                        <button id="perf">Performance</button>
+                    </div>
+                    
+                </div>
+            </aside>
+
+            <aside class="right_card">
+                <div id ="card">
+                    <table id="stock">
+                        <caption>Summary</caption>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>ACTUALS</th>
+                            <th>REMANDER</th>
+                            <th>PERCENTAGE</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </aside>
+    
+</body>
+</html>

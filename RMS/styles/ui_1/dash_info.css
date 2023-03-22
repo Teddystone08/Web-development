@@ -1,0 +1,38 @@
+.req_info{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+#btn_info{
+    height: 130px;
+    width: 130vh;
+    margin-top: 10%;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 5px 5px darkgreen;
+    visibility: hidden;
+}
+
+#info_tb, #info1_tb1, #info_tb2w{
+    position: absolute;
+    top: 40%;
+    width: 120vh;
+}
+
+#score, #score1, #score2{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    border: none;
+    height: 90px;
+    width: 120vh;
+}
+#score td, #score1 td, #score2 td{
+    height: 80px;
+    width: 120vh;
+    border-radius: 100px;
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: center;   
+}

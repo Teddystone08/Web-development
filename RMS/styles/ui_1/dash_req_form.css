@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     position: relative;
-
+    
 }
 
 .item_req{
@@ -10,6 +10,7 @@
     top: 120%;
     right: 40%;
     padding: 20px;
+    visibility: hidden;
 }
 
 legend{

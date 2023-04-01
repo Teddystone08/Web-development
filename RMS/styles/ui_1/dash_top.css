@@ -32,6 +32,7 @@ header{
     box-shadow: 5px 0px 7px 2px darkgreen;
     margin: 80px;
     margin-top: 100px;
+    transition: 0.5;
     
 }
 

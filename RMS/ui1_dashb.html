@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./styles/ui_1/ui1_dash_side.css"> 
     <link rel="stylesheet" href="./styles/ui_1/dash_table.css">
     <link rel="stylesheet" href="./styles/ui_1/dash_req_form.css">
-    <title>DashBoard</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" 
+    crossorigin="anonymous"></script>
+   <title>DashBoard</title>
 </head>
 
 <body class="web_ui_one">
@@ -118,6 +120,40 @@
                 </fieldset>
             </form>
         </section>
+        <section class="tb_stock">
+            <table class="stock" id="stock_tab">
+                <tr>    
+                    <th colspan="10">Inventory</th>
+                </tr>
+
+                    <th>Number</th>
+                    <th>Item code</th>
+                    <th>Start Stock</th>
+                    <th>Units</th>
+                    <th>Order Date</th>
+                    <th>Used qty</th>
+                    <th>Remainder</th>
+                    <th>Added Quantity</th>
+                    <th>order Date</th>
+                    <th>Closing Stock</th>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr></tr>
+            </table>
+
+        </section>
             
     </div>
     
@@ -157,6 +193,6 @@
                     
                 </div>
             </aside>
-    
+<script src="./js/Ui_1.js"></script>    
 </body>
 </html>

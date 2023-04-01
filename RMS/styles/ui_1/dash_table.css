@@ -19,3 +19,21 @@
     height: 30px;
     width: auto;
 }
+
+/* Stock table */
+.stock{
+    position: absolute;
+    width: 80%;
+    top: 130px;
+    right: 10%;
+    border: 1px solid;
+}
+
+.stock th, td{
+    text-align: center;
+    width: 60px;
+    border: 1px solid;
+    height: 30px;
+    
+    
+}

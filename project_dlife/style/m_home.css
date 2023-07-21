@@ -1,0 +1,97 @@
+body{
+    margin:0%;
+    padding:0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.serm_lg{
+    padding-top: 90px;
+    border: 2px solid blueviolet;
+    height: 400px;
+    width: 400px;
+}
+
+.activity{
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.serm{
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+    padding-bottom: 0;
+    
+}
+
+.head h2{
+    position: absolute;
+    margin-left: 40px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    
+    
+}
+
+p div{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.serm_info{
+    margin-top: 0px;
+    margin-left: 40px;
+
+}
+
+
+.band{
+    margin: 0px;
+    padding: 0px;
+    width: 100%
+}
+
+
+.contact img{
+    height: 250px;
+    width: 250px; 
+    padding: 20px;
+    
+}
+
+.event{
+    height: 200px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;  
+    color: blue;  
+}
+
+.event h4{
+    background: rgb(185, 185, 53);
+    height: 25px;
+    color: azure;
+
+}
+
+.service{
+    margin: 30px;
+    text-align: justify;
+}
+

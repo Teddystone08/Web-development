@@ -46,3 +46,100 @@ body{
     text-indent: 2px;
     
 }
+
+section{
+    background: grey;
+    height: auto;
+    padding: 30px;
+           
+}
+
+
+.evt_sec{
+    display: flex;
+    margin-left: 0%;
+}
+
+.evt_event{
+    margin-left: 20px;
+    
+}
+.evt_serm{
+    margin-left: 300px;
+}
+
+.evt_offer{
+    margin-left: 260px;
+}
+
+.card{
+    display: flex;
+    
+}
+
+.card_evt{
+    display: flex;
+    flex-direction: column;
+   
+}
+.evt{
+    height: 90px;
+    width: 330px;
+    background-color: beige;
+    margin: 20px;    
+    display:flex ;
+}
+.serm1{
+    height: 90px;
+    width: 330px;
+    background-color: beige;
+    margin: 20px;
+    margin-left: 50px;
+   display: flex;
+}
+
+.give{
+    height: 50PX;
+    width: 100px;
+    margin: 20px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: green;
+    color: beige;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#evt1{
+    height: 90px;
+    width: 150px;
+
+}
+#time{
+    text-align: center;
+    padding: 30px;
+    
+}
+.serm{
+    height: 80px;
+    width: 150px;
+}
+
+.vt{
+    display: flex;
+    flex-direction: column;
+}
+
+.evt_log{
+    height: 90px;
+    width: 200px;
+    margin-left: 50px;
+    display: block;
+}
+
+.evt_info{
+    display: flex;
+    justify-self: auto;
+    
+}
+

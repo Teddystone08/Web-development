@@ -38,6 +38,7 @@ header{
 #usr, #ps{
     padding: 5px;
 }
+  
 ::placeholder{
     text-align: center;
 }

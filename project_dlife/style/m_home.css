@@ -12,6 +12,7 @@ body{
 
 }
 
+
 .serm_lg{
     padding-top: 90px;
     border: 2px solid blueviolet;
@@ -27,12 +28,16 @@ body{
 
 }
 
+.request{
+    margin-left: 80px;
+
+}
+
 .serm{
     height: 250px;
     width: 250px;
-    padding: 40px;
-    padding-bottom: 0;
-    
+    padding: 28px;
+        
 }
 
 .head h2{

@@ -11,12 +11,12 @@ nav{
     z-index: 1;
 }
 
-#logo{
+.logo{
     height: 70px;
     border-radius: 70%;
     border: 3px solid rgb(247, 247, 121);
-    box-shadow: -0px 0px 25px rgb(234, 238, 21);
-    margin-left: 10px;
+    box-shadow: 0px 0px 25px rgb(234, 238, 21);
+    margin-top: 12px;
 }
 
 #header{
@@ -39,27 +39,26 @@ nav{
     font-size: 13px;
 }
 
-.fn #man{
+.man{
     display: flex;
     list-style: none; 
     justify-content: center;
     
 }
 
-#man li{
+.man li{
     padding: 15px;    
        
 }
 
-#man a{
+.man a{
     text-decoration: none;
     
 }
 
 .sub{
     list-style: none;
-    margin-left: -20px;
-    padding: px;
+    padding: 10px;
     width: max-content;
     display: none;
     background-color: lightblue;
@@ -70,13 +69,14 @@ nav{
     padding: 0px;
     line-height: 30px;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .sub a{
     margin-left: 0px;
-    text-align: center;
+    
 }
+
 #man li :hover{
     color: rgb(234, 238, 21);
     display: block;
@@ -120,6 +120,7 @@ form{
 .socials{
     margin-left: 50px;
 }
+
 .sit{
     height: 35px;
     padding: 10px;

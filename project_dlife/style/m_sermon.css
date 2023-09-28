@@ -1,4 +1,39 @@
 body{
     margin: 0%;
     padding: 0%;
+    
+}
+
+.head{
+    height: 300px;
+    background-color:rgb(82, 82, 150);    
+    color: azure; 
+    
+}
+
+.page{
+    padding-top: 200px;
+    color: azure;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.container{
+    max-width: cover;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    gap: 20px;
+}
+
+.serm{
+    background-color: aquamarine;
+    padding: 20px;
+    font-size: 20px;
+    color: blue;
+    height: auto;
+
+
 }

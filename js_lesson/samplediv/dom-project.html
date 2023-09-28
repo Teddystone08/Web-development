@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom project</title>
+</head>
+<body>
+    <p>YouTube subscribe button</p>
+
+    <button class="btn" 
+    onclick="subscribe()
+    
+    ">Subscribe</button>
+
+
+
+
+<p>Amazion shipping calculator</p>
+<p>Orders under $40 =+ 10 shipping</p>
+<p>Orders over $40 = FREE shipping</p>
+
+
+<p class="js-note"></p>
+<input placeholder="cost of shipment" class="js-cost-input" onkeydown="
+handleCostKeydown(event);
+">
+
+<button onclick ="
+shipment()
+
+
+">Calculate</button>
+
+
+<p class="js-result"></p>
+<p class="js-result-note"></p>
+<p class="js-result-note2"></p>
+
+
+<script>
+
+    function handleCostKeydown(event){
+        if(event.key === 'Enter') {
+            shipment();
+}
+    }
+
+        function subscribe() {
+            const buttonEl = document.querySelector('.btn');
+
+            if(buttonEl.innerHTML === 'Subscribe'){
+                buttonEl.innerHTML = 'Subscribed'
+            }else{
+                buttonEl.innerHTML = 'Subscribe'
+            }
+
+        };
+
+
+        function shipment(){
+            const inputEl=(document.querySelector('.js-cost-input'))
+            let cost = Number(inputEl.value)
+
+
+            if(cost < 40) {
+                cost = cost + 10;
+            }
+            document.querySelector('.js-result').innerHTML= `$${cost}`
+
+        }
+
+</script>
+</body>
+</html>

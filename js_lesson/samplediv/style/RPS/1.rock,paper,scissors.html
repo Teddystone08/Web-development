@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="styleRSP.css">
+</head>
+<body>
+
+    <p class="topic">Rock, Peper and Scissor game</p>
+
+    <button class="rock-btn button"
+    onclick="
+    getGamePick('rock');
+
+        
+    "><img src="Rock.jpg" class="pic-rock" ></button>
+
+
+    <button class="Paper-btn button"
+    onclick=" 
+    getGamePick('paper')      
+    
+    "><img src="Papper.jpg"></button>
+
+    <button class="Scissor-btn button" 
+    onclick="
+   getGamePick('scissor')
+    
+    "><img src="Scissor.jpg"></button>
+
+    <p class="display"></p>
+    <p class="win"></p>
+    <p class="loose"></p>
+
+
+   
+    <button class="switch">Start</button>
+    <button class="restart">Restart</button>
+
+    
+    <script src="js-RPS.js"></script>
+</body>
+</html>

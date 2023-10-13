@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todolist.css">
     <title>Todo list</title>
 </head>
 <body>
@@ -12,17 +13,21 @@
         </p>
 
         <div class="pad">
-            <input type="text" class="input">
+            <input type="text" class="input" placeholder="To do">
+            <input type="date" name="date" id="date" class="date input">
             
-            <button class="btn"
-            onclick="
-            addListdo();"
+            <button class="btn js-btn"
+            
             
             >Add</button> 
 
         </div>
+
        <div class="text">Text</div>
+
     </div>
-    
+
+
+    <script src="todolist.js"></script>
 </body>
 </html>

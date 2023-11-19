@@ -1,72 +1,31 @@
-max = 100
-min = 1
+
 const btnEl = document.querySelector('.btn')
-const lotto = Math.floor(Math.random() * (max - min + 1)) + min;
+
 
 let draw = [];
 
-
 btnEl.addEventListener('click',() => { 
-   if (lotto > 0 || lotto < 100){
+ // Function to generate an array from 1 to n
+function generateArray(n) {
+  return Array.from({ length: n }, (_, index) => index + 1);
+}
 
-    draw.push(lotto)
-    
-   }
+// Function to randomly select k elements from an array
+function randomSelection(arr, k) {
+  const shuffled = [...arr];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled.slice(0, k);
+}
 
-   console.log(draw)
+const numbersArray = generateArray(100);
+const randomFiveElements = randomSelection(numbersArray, 5);
+
+console.log(randomFiveElements);
 
 
-   function countCombinations() {
-      const numbers = Array.from({ length: 100 }, (_, i) => i + 1);
-       combinations = [];
-      const targetSum = 200;
-    
-      // Generate all possible combinations of 5 numbers from the range 1 to 100
-      function generateCombinations(arr, startIndex, currentCombination) {
-        if (currentCombination.length === 5) {
-          const sum = currentCombination.reduce((acc, val) => acc + val, 0);
-          if (sum === targetSum) {
-            combinations.push([...currentCombination]);
-          }
-          return;
-        }
-    
-        for (let i = startIndex; i < arr.length; i++) {
-          currentCombination.push(arr[i]);
-          generateCombinations(arr, i + 1, currentCombination);
-          currentCombination.pop();
-        }
-      }
-    
-      generateCombinations(numbers, 0, []);
-    
-      // Calculate the total number of combinations
-      const totalCombinations = Math.pow(numbers.length, 5);
-    
-      // Calculate the probability
-      const probability = combinations.length / totalCombinations;
-    
-      return probability;
-    }
-    
-    // Calculate and print the probability
-    const probability = countCombinations();
-    console.log("Probability:", probability);
-    console.log(combinations)
-
+  
 });
-
-
-
-
-
-
-    
-
-
-
-
-
-
-//console.log(lotto)
 
